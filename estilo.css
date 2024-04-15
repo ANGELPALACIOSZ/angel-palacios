@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
     background-image: url(c:\Users\angel\Downloads\descarga.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,8 +9,8 @@ body {
     left: 150%;
 }
 header {
-    background-color: #a04949;
-    color: #91822d;
+    background-color: #1c539b;
+    color: #000000;
     text-align: center;
     padding: 10px 0;
     
