@@ -17,7 +17,8 @@ header {
 }
 img{
     width: 350px;
-    left: 70px;
+    left: 80%;
+    top: 2px;
     position: absolute;
     height: auto;
 }
