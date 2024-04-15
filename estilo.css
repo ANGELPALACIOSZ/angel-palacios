@@ -8,12 +8,13 @@ body {
     text-rendering: geometricPrecision;
     left: 150%;
 }
+
 header {
     background-color: #1c539b;
     color: #000000;
     text-align: center;
     padding: 10px 0;
-    
+
 }
 img{
     width: 350px;
