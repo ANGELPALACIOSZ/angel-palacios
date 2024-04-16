@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background-image: url(c:\Users\angel\Downloads\descarga.jpg);
     background-size: cover;
@@ -8,16 +8,18 @@ body {
     text-rendering: geometricPrecision;
     left: 200%;
 }
-
+*/
 header {
     background-color: #1c539b;
     color: #000000;
     text-align: center;
     padding: 10px 0;
+    top: 0%;
 
 }
 img{
     position: center;
+    width: 350px;
    /* width: 350px;
     left: 75%;
     top: 2px;
