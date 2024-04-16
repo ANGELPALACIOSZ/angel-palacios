@@ -17,11 +17,12 @@ header {
 
 }
 img{
-    width: 350px;
+    position: center;
+   /* width: 350px;
     left: 75%;
     top: 2px;
     position: absolute;
-    height: auto;
+    height: auto;*/
 }
 .tab {
     overflow: hidden;
