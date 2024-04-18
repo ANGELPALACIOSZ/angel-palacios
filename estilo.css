@@ -27,7 +27,7 @@ img{
 }
 .tab {
     overflow: hidden;
-    background-color: #0e0d0d;
+    background-color: #e9dfdf;
 }
 .tab button {
     background-color: inherit;
@@ -42,7 +42,7 @@ img{
     background-color: #09374d;  
 }
 .tab button.active {
-    background-color: #5b3b96;
+    background-color: #639aec;
 }
 .content {
     display: none;
