@@ -16,7 +16,7 @@ header {
     padding: 10px 0;
 
 }
-img{
+.image{
     position: center;
     width: 350px;
    /* width: 350px;
@@ -49,4 +49,7 @@ img{
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
+}
+img{
+
 }
