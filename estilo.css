@@ -20,10 +20,10 @@ img{
     position: center;
     width: 350px;
    /* width: 350px;
-    left: 75%;
+    left: 80%;
     top: 2px;
     position: absolute;
-    height: auto;*/
+    height: 350px;*/
 }
 .tab {
     overflow: hidden;
@@ -39,7 +39,7 @@ img{
     transition: 0.2s;
 }
 .tab button:hover {
-    background-color: #09374d;
+    background-color: #09374d;  
 }
 .tab button.active {
     background-color: #5b3b96;
