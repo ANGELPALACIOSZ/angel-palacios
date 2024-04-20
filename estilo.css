@@ -18,7 +18,7 @@ header {
 }
 .image{
     position: center;
-    width: 350px;
+    width: 200px;
    /* width: 350px;
     left: 80%;
     top: 2px;
@@ -48,9 +48,9 @@ header {
     display: none;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #ccc;
+    border: 5px solid #ccc;
 }
 img{
 position: relative;
-width: 300px;
+width: 400px;
 }
