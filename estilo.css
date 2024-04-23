@@ -13,17 +13,13 @@ header {
     background-color: #C0C0C0;
     color: #000000;
     text-align: center; 
-    padding: 10px 0;
+    padding: 400px 0;
 
 }
 .image{
     position: left;
-    width: 100px;   
-   /* width: 350px;
-    left: 80%;
-    top: 2px;
-    position: absolute;
-    height: 400px;*/
+    width: 200px;   
+  
 }
 .tab {
     overflow: hidden;
@@ -35,8 +31,8 @@ header {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.5s;
+    padding: 20px 22px;
+    transition: 0.3s;
     
 }
 .tab button:hover {
@@ -49,7 +45,7 @@ header {
     display: none;
     padding: 20px;
     background-color: #fff;
-    border: 5px solid #ccc;
+    border: 10px solid #ccc;
 }
 img{
 position: left;
