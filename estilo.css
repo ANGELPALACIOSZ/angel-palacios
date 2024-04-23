@@ -10,7 +10,7 @@
 }
 */
 header {
-    background-color: #696767;
+    background-color: #C0C0C0;
     color: #000000;
     text-align: center; 
     padding: 10px 0;
@@ -37,12 +37,13 @@ header {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.2s;
+    
 }
 .tab button:hover {
-    background-color: #09374d;  
+    background-color:  #f5f5f5;  
 }
 .tab button.active {
-    background-color: #639aec;
+    background-color:  #B0B0B0;
 }
 .content {
     display: none;
