@@ -36,7 +36,7 @@ header {
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 0.2s;
+    transition: 0.5s;
     
 }
 .tab button:hover {
@@ -52,6 +52,6 @@ header {
     border: 5px solid #ccc;
 }
 img{
-position: central;
-width: 400px;
+position: left;
+width: 100px;
 }
