@@ -13,7 +13,7 @@ header {
     background-color: #C0C0C0;
     color: #000000;
     text-align: center; 
-    padding: 10px 0;
+    padding: 100px 0;
 
 }
 .image{
@@ -49,5 +49,5 @@ header {
 }
 img{
 position: left;
-width: 10px;
+width: 100px;
 }
