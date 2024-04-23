@@ -13,13 +13,13 @@ header {
     background-color: #C0C0C0;
     color: #000000;
     text-align: center; 
-    padding: 180px 0;
+    padding: 150px 0;
     /* modifica el encabezado */
 
 }
 .image{
     position: absolute;
-    width: 100px;   
+    width: 200px;   
     /* modifica la imagen del encabezado */
   
 }
