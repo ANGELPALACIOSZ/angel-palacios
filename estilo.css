@@ -19,8 +19,7 @@ header {
 }
 .image{
     position: absolute;
-    width: 200px;
-    margin-right: 100px;   
+    width: 200px;  
     /* modifica la imagen del encabezado */
   
 }
