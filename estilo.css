@@ -10,15 +10,15 @@
 }
 */
 header {
-    background-color: #8e4c2f;
-    color: #968383;
+    background-color: #d5b274;
+    color: #f2e8d3;
     text-align: center; 
-    padding: 150px 100%;
+    padding: 150px 0%;
     /* modifica el encabezado */
 
 }
 .image{
-    position: left;
+    position: absolute;
     width: 200px;   
     /* modifica la imagen del encabezado */
   
