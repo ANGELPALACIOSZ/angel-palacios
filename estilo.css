@@ -11,7 +11,7 @@
 */
 header {
     background-color: #8e4c2f;
-    color: #000000;
+    color: #968383;
     text-align: center; 
     padding: 150px 100%;
     /* modifica el encabezado */
@@ -19,13 +19,13 @@ header {
 }
 .image{
     position: left;
-    width: 200px;   
+    width: 400px;   
     /* modifica la imagen del encabezado */
   
 }
 .tab {
     overflow: hidden;
-    background-color: #070707;
+    background-color: #a08d8d;
 }
 .tab button {
     background-color: inherit;
@@ -51,5 +51,5 @@ header {
 }
 img{
 position: left;
-width: 120px;
+width: 200px;
 }
