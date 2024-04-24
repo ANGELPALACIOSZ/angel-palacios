@@ -45,7 +45,7 @@ header {
 }
 .content {
     display: none;
-    padding: 50px;
+    padding: 100px;
     background-color: #fff;
     border: 15px solid #ccc;
 }
