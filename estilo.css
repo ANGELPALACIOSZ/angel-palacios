@@ -45,11 +45,11 @@ header {
 }
 .content {
     display: none;
-    padding: 30px;
+    padding: 50px;
     background-color: #fff;
     border: 15px solid #ccc;
 }
 img{
 position: left;
-width: 100px;
+width: 120px;
 }
