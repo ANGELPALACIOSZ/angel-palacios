@@ -18,8 +18,8 @@ header {
 
 }
 .image{
-    position: absolute;
-    width: 300px;   
+    position: left;
+    width: 400px;   
     /* modifica la imagen del encabezado */
   
 }
@@ -51,5 +51,5 @@ header {
 }
 img{
 position: left;
-width: 50px;
+width: 100px;
 }
