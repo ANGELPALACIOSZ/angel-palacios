@@ -38,10 +38,10 @@ header {
     
 }
 .tab button:hover {
-    background-color:  #f5f5f5;  
+    background-color: #d5b274;  
 }
 .tab button.active {
-    background-color:  #B0B0B0;
+    background-color:  #361912;
 }
 .content {
     display: none;
