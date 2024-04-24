@@ -18,7 +18,7 @@ header {
 
 }
 .image{
-    position: absolute;
+    position:left;
     width: 300px;  
     /* modifica la imagen del encabezado */
   
