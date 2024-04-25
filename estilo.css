@@ -112,3 +112,9 @@ imagen-1{
   .product-button:hover {
     background-color: #0056b3;
   }
+  img{
+    width: 150px;
+    padding:10px;
+    height: 150px;
+    
+  }
