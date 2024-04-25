@@ -65,7 +65,7 @@ body {
 
 imagen-1{
     position: relative;
-    width: 5px; /* Cambia el ancho de la imagen */
+    width: 20px; /* Cambia el ancho de la imagen */
     height: auto; /* Mantiene la proporción original de la imagen */
 
 
