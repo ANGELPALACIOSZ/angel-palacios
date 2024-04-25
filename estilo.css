@@ -42,7 +42,7 @@ header {
 }
 .image{
     position:left 20px;
-    width: 300px;  
+    width: 350px;  
     /* modifica la imagen del encabezado */
   
 }
@@ -78,7 +78,7 @@ width: 150px;
 }
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
-   color: #ffffff;
+   color: #441906;
 
 }
 body {
