@@ -68,11 +68,11 @@ body {
 }
 
 imagen-1{
-    width: 100%; /* Ajusta el ancho de las imágenes al ancho de las columnas */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 10px; /* Espacio entre las imágenes */
+    width: 100%; /* Ajusta el ancho de las imágenes al ancho de las columnas /
+    height: auto; / Mantiene la proporción de la imagen /
+    margin-bottom: 10px; / Espacio entre las imágenes */
 }
-   
+
 }
 imagen-2{
     width: 100%; 
@@ -94,7 +94,7 @@ imagen-4{
     left: 50PX;
     height: auto;
 }
-    
+
 imagen-5{
     position: absolute;
     width: 50px;
