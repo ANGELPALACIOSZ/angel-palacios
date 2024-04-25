@@ -35,7 +35,7 @@ header {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 20px 22px;
+    padding: 16px 18px;
     transition: 0.3s;
     
 }
@@ -47,7 +47,7 @@ header {
 }
 .content {
     display: none;
-    padding: 100px;
+    padding: 80px;
     background-color: #FFF9ED;
   
 }
@@ -55,7 +55,7 @@ header {
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
    color: #441906;
-   font-size: 50px;
+   font-size: 30px;
 
 }
 body {
