@@ -4,21 +4,21 @@
 }
 
 .imagen-1{
-    width: 350px;
-    height: 500px;
-    margin-left: 200px;
+    width: 250px;
+    height: 400px;
+    margin-right: 200px;
 }
 
 .imagen-2{
     width: 1000px;
     height: 1100px;
-    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .imagen-3{
-    width: 350px;
-    height: 350px;
-    margin-left: 200px;
+    width: 200px;
+    height: 300px;
+    margin-right: 200px;
 }
 
 /*body {
