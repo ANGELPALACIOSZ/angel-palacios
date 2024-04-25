@@ -61,51 +61,12 @@ header {
 body {
     background-color: #FFF9ED;
 }
-.contenet {
-    column-count: 3; /* Divide en 3 columnas */
-    column-gap: 10px; /* Espacio entre las columnas */
-    position: static;
-}
+
 
 .imagen-1{
-    width: 100%; /* Ajusta el ancho de las imágenes al ancho de las columnas /
-    height: auto; / Mantiene la proporción de la imagen /
-    margin-bottom: 10px; / Espacio entre las imágenes */
-}
-
-.imagen-2{
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; 
-}
-
-.imagen-3{
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; 
-}
-
-
-.imagen-4{
     position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
-}
+    width: 300px; /* Cambia el ancho de la imagen */
+    height: auto; /* Mantiene la proporción original de la imagen */
 
-.imagen-5{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
-}
 
-.imagen-6{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
-}
+ }
