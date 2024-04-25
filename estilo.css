@@ -67,46 +67,35 @@ body {
     position: static;
 }
 
-imagen-1{
-    width: 100%; /* Ajusta el ancho de las imágenes al ancho de las columnas */
-    height: auto; /* Mantiene la proporción de la imagen */
-    margin-bottom: 10px; /* Espacio entre las imágenes */
+.imagen-1{
+    display: flex;
+    flex-wrap: wrap;
 }
-   
+  
+.imagen-2{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
-imagen-2{
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; 
-}
-}
-imagen-3{
-    width: 100%; 
-    height: auto; 
-    margin-bottom: 10px; 
-}
-
-
-imagen-4{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
+  
+.imagen-3{
+    max-width: 100%;
     height: auto;
 }
-    
-imagen-5{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
+  
+.imagen-4{
+    font-weight: bold;
+  }
+  
+.product-price {
+    color: green;
 }
-
-imagen-6{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
+  
+.imagen-6{
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
 }
