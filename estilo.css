@@ -1,25 +1,4 @@
-.content {
-    display: flex;
-    justify-content: left;
-}
 
-.imagen-1{
-    width: 250px;
-    height: 400px;
-    margin-right: 200px;
-}
-
-.imagen-2{
-    width: 1000px;
-    height: 1100px;
-    margin-right: 200px;
-}
-
-.imagen-3{
-    width: 200px;
-    height: 300px;
-    margin-right: 200px;
-}
 
 /*body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
@@ -72,10 +51,7 @@ header {
     background-color: #FFF9ED;
   
 }
-img{
-position: left;
-width: 200px;
-}
+
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
    color: #441906;
@@ -85,4 +61,18 @@ width: 200px;
 body {
     background-color: #FFF9ED;
 }
+.contenedor {
+    position: relative; /* Necesario para posicionar la imagen dentro */
+    width: 500px; /* Ancho del contenedor */
+    height: 300px; /* Alto del contenedor */
+}
+imagen-1{
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: auto;
+}
+
+
     
