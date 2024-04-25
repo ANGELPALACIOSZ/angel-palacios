@@ -35,7 +35,7 @@
 */
 header {
     background-color: #7D3611;
-    color: #FFC672;
+    color: #FFF9ED;
     text-align: center; 
     padding: 100px;
     /* modifica el encabezado */
@@ -70,8 +70,8 @@ header {
 .content {
     display: none;
     padding: 100px;
-    background-color: #FFF9ED;
-    border: 15px solid #FFF9ED;
+    background-color: white;
+    border: 15px solid white;
 }
 img{
 position: left;
