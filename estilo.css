@@ -86,13 +86,25 @@ imagen-3{
 }
 
 imagen-4{
-    margin-right: 300px;
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: auto;
 }
     
 imagen-5{
-    margin-right: 300px;
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: auto;
 }
 
 imagen-6{
-    margin-right: 100px;
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: auto;
 }
