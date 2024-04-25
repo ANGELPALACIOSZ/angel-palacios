@@ -18,7 +18,7 @@ header {
 
 }
 .image{
-    position:left;
+    position:left 20px;
     width: 300px;  
     /* modifica la imagen del encabezado */
   
@@ -56,5 +56,5 @@ width: 150px;
 button{
     font-family: 'Times New Roman', Times, serif, sans-serif;
    color: #fff;
-   
+
 }
