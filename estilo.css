@@ -42,7 +42,7 @@ header {
 }
 .image{
     position:left 20px;
-    width: 350px;  
+    width: 380px;  
     /* modifica la imagen del encabezado */
   
 }
@@ -56,7 +56,7 @@ header {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 20px 22px;
     transition: 0.3s;
     
 }
@@ -74,14 +74,15 @@ header {
 }
 img{
 position: left;
-width: 150px;
+width: 200px;
 }
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
    color: #441906;
+   font-size: 30px;
 
 }
 body {
     background-color: #FFF9ED;
+}
     
-
