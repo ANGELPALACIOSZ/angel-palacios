@@ -78,7 +78,7 @@ imagen-2{
     width: 50px;
     top: 50PX;
     left: 50PX;
-    height: 50px;
+    height:auto;
 
 }
 imagen-3{
@@ -86,7 +86,7 @@ imagen-3{
     width: 50px;
     top: 50PX;
     left: 50PX;
-    height: 80px;
+    height: auto;
 
 
 }
