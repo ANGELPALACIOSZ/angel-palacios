@@ -1,3 +1,21 @@
+.imagen-1{
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.imagen-2{
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.imagen-3{
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+}
+
 /*body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background-image: url(c:\Users\angel\Downloads\descarga.jpg);
@@ -59,20 +77,3 @@ width: 150px;
 
 }
 
-.imagen-1{
-    width: 350px;
-    height: 250px;
-    margin-left: 100px;
-}
-
-.imagen-2{
-    width: 350px;
-    height: 250px;
-    margin-left: 100px;
-}
-
-.imagen-3{
-    width: 350px;
-    height: 250px;
-    margin-left: 100px;
-}
