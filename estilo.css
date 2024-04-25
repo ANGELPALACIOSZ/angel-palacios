@@ -34,8 +34,8 @@
 }
 */
 header {
-    background-color: #d5b274;
-    color: #f2e8d3;
+    background-color: #7D3611;
+    color: #FFC672;
     text-align: center; 
     padding: 100px;
     /* modifica el encabezado */
@@ -49,7 +49,7 @@ header {
 }
 .tab {
     overflow: hidden;
-    background-color:#aa6535;
+    background-color:#FFC672;
 }
 .tab button {
     background-color: inherit;
@@ -62,7 +62,7 @@ header {
     
 }
 .tab button:hover {
-    background-color: #d5b274;  
+    background-color: white;  
 }
 .tab button.active {
     background-color:  #361912;
@@ -79,7 +79,7 @@ width: 150px;
 }
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
-   color: #fff;
+   color: #441906;
 
 }
 
