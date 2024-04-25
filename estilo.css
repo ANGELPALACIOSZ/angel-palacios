@@ -74,12 +74,8 @@ imagen-1{
     height: auto;
 }
 imagen-2{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height:auto;
-
+    position: sticky;
+    top: 20px;
 }
 imagen-3{
     position: absolute;
