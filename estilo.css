@@ -70,7 +70,7 @@ header {
     display: none;
     padding: 100px;
     background-color: #FFF9ED;
-    border: 15px solid white;
+  
 }
 img{
 position: left;
@@ -79,7 +79,7 @@ width: 200px;
 .tablinks{
     font-family: 'Times New Roman', Times, serif, sans-serif;
    color: #441906;
-   font-size: 30px;
+   font-size: 50px;
 
 }
 body {
