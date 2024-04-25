@@ -62,10 +62,10 @@ header {
     
 }
 .tab button:hover {
-    background-color: white;  
+    background-color: #FFF9ED;  
 }
 .tab button.active {
-    background-color:  #361912;
+    background-color: white;
 }
 .content {
     display: none;
