@@ -61,29 +61,31 @@ header {
 body {
     background-color: #FFF9ED;
 }
-.contenedor {
-    position: relative; /* Necesario para posicionar la imagen dentro */
-    width: 500px; /* Ancho del contenedor */
-    height: 300px; /* Alto del contenedor */
+.contenet {
+    column-count: 3; /* Divide en 3 columnas */
+    column-gap: 10px; /* Espacio entre las columnas */
+    position: static;
 }
+
 imagen-1{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
+    width: 100%; /* Ajusta el ancho de las imágenes al ancho de las columnas */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 10px; /* Espacio entre las imágenes */
+}
+   
 }
 imagen-2{
-    position: sticky;
-    top: 20px;
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
 }
 imagen-3{
-    position: absolute;
-    width: 50px;
-    top: 50PX;
-    left: 50PX;
-    height: auto;
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
 }
+
 
 imagen-4{
     position: absolute;
