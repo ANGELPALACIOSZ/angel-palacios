@@ -73,6 +73,20 @@ imagen-1{
     left: 50PX;
     height: auto;
 }
+imagen-2{
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: 50px;
+
+}
+imagen-3{
+    position: absolute;
+    width: 50px;
+    top: 50PX;
+    left: 50PX;
+    height: 80px;
 
 
-    
+}
