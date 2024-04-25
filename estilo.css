@@ -73,7 +73,7 @@ body {
  .product-selector { 
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #e4ba61;
 }
 
 .product-list {
@@ -85,7 +85,7 @@ body {
     width: 200px;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #e2d40a;
   }
   
   .product-item img {
@@ -103,7 +103,7 @@ body {
   
   .product-button {
     background-color: #007bff;
-    color: white;
+    color: rgb(117, 21, 155);
     padding: 5px 10px;
     border: none;
     cursor: pointer;
