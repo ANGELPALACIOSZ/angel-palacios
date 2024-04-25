@@ -17,10 +17,59 @@
         <button class="tablinks" onclick="openTab(event, 'BERMUDAS')">BERMUDAS</button>
         <button class="tablinks" onclick="openTab(event, 'CAMISAS')">CAMISAS</button>
         <button class="tablinks" onclick="openTab(event, 'POLERAS')">POLERAS</button>
-    <!--se puede agregar mas categorias de ropa-->
+    <!--se puede agregar mas categorias de ropa-->      
     </head>
     </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carrito de Compras</title>
+<style>
+    .product {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
 
+<h1>Carrito de Compras</h1>
+
+<div class="product">
+    <span>Producto 1</span>
+    <button onclick="decreaseQuantity(1)">-</button>
+    <span id="quantity1">1</span>
+    <button onclick="increaseQuantity(1)">+</button>
+</div>
+
+<div class="product">
+    <span>Producto 2</span>
+    <button onclick="decreaseQuantity(2)">-</button>
+    <span id="quantity2">1</span>
+    <button onclick="increaseQuantity(2)">+</button>
+</div>
+
+<script>
+    function increaseQuantity(productId) {
+        var quantityElement = document.getElementById('quantity' + productId);
+        var quantity = parseInt(quantityElement.textContent);
+        quantityElement.textContent = quantity + 1;
+    }
+
+    function decreaseQuantity(productId) {
+        var quantityElement = document.getElementById('quantity' + productId);
+        var quantity = parseInt(quantityElement.textContent);
+        if (quantity > 1) {
+            quantityElement.textContent = quantity - 1;
+        }
+    }
+</script>
+
+</body>
+</html>
     <div id="POLOS" class="content">
 
         <h2>Polos</h2>
