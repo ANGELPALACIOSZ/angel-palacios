@@ -1,4 +1,3 @@
-
 class Carrito {
     constructor(clave) {
         this.clave = clave || "productos";
