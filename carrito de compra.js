@@ -1,6 +1,6 @@
 
 class Carrito {
-    constructor(clave) {
+    constructor (clave) {
         this.clave = clave || "productos";
         this.productos = this.obtener();
     }
@@ -39,3 +39,6 @@ class Carrito {
 
 
 }
+
+
+
