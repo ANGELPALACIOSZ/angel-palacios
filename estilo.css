@@ -118,29 +118,3 @@ imagen-1{
     height: 150px;
     
   }
-
-/* styles.css */
-body {
-  font-family: Arial, sans-serif;
-}
-
-#productos {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.producto {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 10px;
-  width: 200px;
-}
-
-#carrito {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  width: 250px;
-  float: right;
-}
