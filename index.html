@@ -32,11 +32,13 @@
 
         <h2>Polos</h2>
         
-        <img class="imagen-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42_65OQm1CC8YK6ga75p8s3Inp_2f-g65ztvmTmBS9w&s" alt="">
-        <img class="iamgen-1" src="https://basisperu.com/cdn/shop/files/polosverdehielo_2755dd8b-42e3-4bd1-ae07-06d3d6047ad8.png?v=1707420382&width=416" alt="">
-        <img class="imagen-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTad-ZTwSYFRZyBGZYjo9Nw4o9OGNHd-F1aoBLvOM-6PkhjnTVR0mkvl5hs_QayePdTlWQ&usqp=CAU" alt="">
+        <img onclick="ponerprecio" class="imagen-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42_65OQm1CC8YK6ga75p8s3Inp_2f-g65ztvmTmBS9w&s" alt="">
+        <img  onclick="ponerprecio" class="iamgen-1" src="https://basisperu.com/cdn/shop/files/polosverdehielo_2755dd8b-42e3-4bd1-ae07-06d3d6047ad8.png?v=1707420382&width=416" alt="">
+        <img onclick="ponerprecio" class="imagen-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTad-ZTwSYFRZyBGZYjo9Nw4o9OGNHd-F1aoBLvOM-6PkhjnTVR0mkvl5hs_QayePdTlWQ&usqp=CAU" alt="">
           <p>Descripción y productos de polos...</p>
-          <span precio="precio">0</span>
+          <div id="idprecio">
+          <span precio="precio">s/+0</span>
+        </div>
           <div id="product1">
             <h2>Producto 1</h2>
             <button onclick="decrementQuantity('product1')">-</button>
@@ -134,10 +136,10 @@
     </script>
    </div>
 <script>
-    function ponerpreci(idprecio){
+    function ponerprecio(idprecio){
     var precio=[20,35,15];
-    for(let index=0; index<precio.length; index++);
-    
+    for(let idprecio=0; idprecio<precio.length; index++);
+        document.write(precio[idprecio]);
     }
 </script>
 
