@@ -39,7 +39,7 @@ class Carrito {
 
 }
 
-*function realizarCompra() {
+function realizarCompra() {
     // Simulación de la compra
     let compraExitosa = false;
 
@@ -51,4 +51,4 @@ class Carrito {
     }
 }
 
-realizarCompra();*
+realizarCompra();
