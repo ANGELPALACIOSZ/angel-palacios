@@ -38,3 +38,17 @@ class Carrito {
 
 
 }
+
+*function realizarCompra() {
+    // Simulación de la compra
+    let compraExitosa = false;
+
+    // Verificar si la compra fue exitosa
+    if (compraExitosa) {
+        alert("¡Compra realizada con éxito!");
+    } else {
+        alert("Error al realizar la compra. Por favor, inténtalo de nuevo más tarde.");
+    }
+}
+
+realizarCompra();*
