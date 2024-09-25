@@ -1,5 +1,6 @@
 
 
+
 /*body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
     background-image: url(c:\Users\angel\Downloads\descarga.jpg);
@@ -19,9 +20,11 @@ header {
     /* modifica el encabezado */
 
 }
-.imagen{
-    position:left 20px;
-    width: 380px;  
+#imagen{
+    display: flex;
+    justify-content: flex-start;
+    
+      
     /* modifica la imagen del encabezado */
   
 }
