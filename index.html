@@ -1,110 +1,380 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TECNOVA</title>
-<link rel="stylesheet" href="estilo.css">
-<body>
-    <header>
-<img class="imagen" src="https://cdn.discordapp.com/attachments/1283445274915635333/1285123924501467146/logo1.png?ex=66ebc36c&is=66ea71ec&hm=4d9e2b1398886cdb16044a565d537545318b00f0dc89b25cae03892321688a26&" alt="">
-    </header>
-
-    <div class="tab">
-
-        <button id="btn" class="tablinks" onclick="openTab(event, 'POLOS')">VISION</button>
-        <button id="btn" class="tablinks" onclick="openTab(event, 'PANTALON')">MISION</button>
-        <button id="btn" class="tablinks" onclick="openTab(event, 'BERMUDAS')">SOBRE NOSOTROS</button>
-        <button id="btn" class="tablinks" onclick="openTab(event, 'CAMISAS')">ATENCION AL CLIENTE</button>
-        <button id="btn" class="tablinks" onclick="openTab(event, 'POLERAS')">PRODUCTOS</button>
-    <!--se puede agregar mas categorias de ropa-->      
-    </div>
-
-    <div id="INICIO" class="content">
-        <h2>VISION</h2>
-
-
-
-          <p>Tecnova aspira a ser un referente en la transformación digital del sector agrícola rural, promoviendo el uso de tecnologías accesibles e innovadoras que impulsen el desarrollo sostenible, mejoren la calidad de vida de las comunidades rurales y contribuyan al crecimiento de la agricultura moderna en todo el Perú.</p>
-           
-
-          <div id="MISION">
-            <h2>MISION</h2>
-            <button onclick="decrementQuantity('product1')">-</button>
-            <span id="quantity_product1">0</span>
-            <button onclick="incrementQuantity('product1')">+</button></div>
-        
-    </div>
-
-    <div id="PANTALON" class="content">
-        <h2>Mision</h2>
-
-        <p>La misión de Tecnova es llevar soluciones tecnológicas avanzadas y accesibles a los agricultores y pequeños empresarios rurales, facilitando la adopción de herramientas digitales que optimicen sus procesos productivos, mejoren la comercialización de sus productos y promuevan la sostenibilidad ambiental. Buscamos empoderar a las comunidades rurales mediante la capacitación, el acceso a tecnología moderna y la creación de oportunidades económicas.</p>
-        <div id="product2">
-            <h2>Producto 1</h2>
-            <button onclick="decrementQuantity('product2')">-</button>
-            <span id="quantity_product2">0</span>
-            <button onclick="incrementQuantity('product2')">+</button></div>
-    </div>
-
-    <div id="BERMUDAS" class="content">
-        <h2>Shorts</h2>
-
-     <p>Se adaptan a una variedad de estilos y ocasiones, desde looks casuales para el día a día hasta outfits más relajados para salidas informales. Su versatilidad permite combinarlas fácilmente con camisetas, polos o camisas, creando conjuntos frescos y modernos.</p>
-        <div id="product3">
-            
-            <h2>Producto 1</h2>
-            <button onclick="decrementQuantity('product3')">-</button>
-            <span id="quantity_product3">0</span>
-            <button onclick="incrementQuantity('product3')">+</button></div>
-    </div>
-
-    <div id="CAMISAS" class="content">
-        <h2>Camisas</h2> 
-
-    <p>Prendas clásicas y versátiles que reflejan elegancia y estilo en cualquier ocasión. Estas prendas icónicas se caracterizan por su diseño estructurado, con cuellos definidos y puños que aportan un toque sofisticado a cualquier look.</p>
-    <div id="product4">
-        <h2>Producto 1</h2>
-        <button onclick="decrementQuantity('product4')">-</button>
-        <span id="quantity_product4">0</span>
-        <button onclick="incrementQuantity('product4')">+</button></div>
-    </div>  
-
-
-    <script>    
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("content");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
-    <div id="product1">
-    <script>
+    <title>Conexión Educativa - Plataforma de Mentoría Académica</title>
     
-        function incrementQuantity(productId) {
-            var quantityElement = document.getElementById('quantity_' + productId);
-            var currentQuantity = parseInt(quantityElement.textContent);
-            quantityElement.textContent = currentQuantity + 1;
-        }
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-graduation-cap me-2"></i>
+                Conexión Educativa
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Funcionalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tech">Tecnologías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#flow">Flujo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mentors">Demo Mentores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#impact">Impacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        function decrementQuantity(productId) {
-            var quantityElement = document.getElementById('quantity_' + productId);
-            var currentQuantity = parseInt(quantityElement.textContent);
-            if (currentQuantity > 0) {
-                quantityElement.textContent = currentQuantity - 1;
-            }
-        }
-    </script>
-        
-   </div>
-</ul>
-    </form></div>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="hero-title">Plataforma de Mentoría Académica</h1>
+                <p class="hero-subtitle">
+                    "Conexión Educativa" facilita la mentoría entre estudiantes de ciclos iniciales y avanzados, 
+                    optimizando el desarrollo académico y profesional mediante un ecosistema colaborativo.
+                </p>
+                <a href="#features" class="btn btn-light btn-lg mt-4">
+                    <i class="fas fa-arrow-down me-2"></i>
+                    Explorar Features
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Descripción General -->
+    <section class="py-5 my-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-in">
+                    <h2 class="section-title text-start">Descripción General</h2>
+                    <p class="lead" style="color: var(--text-light);">
+                        Nuestra plataforma integra un sistema de matching basado en especialidades, 
+                        gestión de sesiones y un mecanismo de retroalimentación para garantizar 
+                        la <strong>calidad de las mentorías</strong> y el éxito académico.
+                    </p>
+                    <ul class="list-unstyled mt-4">
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle me-3" style="color: var(--success-color);"></i>
+                            <strong>Matching Inteligente:</strong> Conectamos aprendices con mentores ideales
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle me-3" style="color: var(--success-color);"></i>
+                            <strong>Gestión Integral:</strong> Agenda, recordatorios y seguimiento automatizado
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle me-3" style="color: var(--success-color);"></i>
+                            <strong>Calidad Garantizada:</strong> Sistema de valoraciones transparente
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 fade-in">
+                    <div class="text-center">
+                        <i class="fas fa-users" style="font-size: 15rem; background: linear-gradient(135deg, var(--primary-color), var(--accent-color)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Funcionalidades Clave -->
+    <section id="features" class="py-5 my-5">
+        <div class="container">
+            <h2 class="section-title">Funcionalidades Clave Implementadas</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>1. Autenticación Unificada</h4>
+                        <p>Registro e inicio de sesión mediante <strong>OAuth 2.0 con Gmail</strong>, asegurando credenciales válidas y reduciendo barreras de acceso.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-cog"></i>
+                        </div>
+                        <h4>2. Perfiles Dinámicos</h4>
+                        <p>Creación de perfiles diferenciados para <strong>mentores</strong> (con especialidad, experiencia y disponibilidad) y <strong>aprendices</strong> (con intereses y objetivos).</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>3. Búsqueda Intuitiva</h4>
+                        <p>Filtrado de mentores por área de conocimiento, horarios y calificaciones, con resultados en <strong>tarjetas interactivas</strong>.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h4>4. Agendamiento Automatizado</h4>
+                        <p>Integración con <strong>Google Calendar</strong> para reservar sesiones, con recordatorios por correo electrónico.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>5. Sistema de Valoraciones</h4>
+                        <p>Evaluación post-sesión mediante <strong>estrellas y comentarios</strong>, visible públicamente para transparencia.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 fade-in">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>MVP Escalable</h4>
+                        <p>Preparado para escalar con features como <strong>videollamadas</strong> o <strong>análisis de datos</strong> de mentorías.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tecnologías Utilizadas -->
+    <section id="tech" class="py-5 my-5 bg-white">
+        <div class="container">
+            <h2 class="section-title">Tecnologías Utilizadas</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h4 class="mb-4">Frontend</h4>
+                    <span class="tech-badge">
+                        <i class="fab fa-html5 me-2"></i>HTML5
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fab fa-css3-alt me-2"></i>CSS3
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fab fa-js me-2"></i>JavaScript
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fab fa-bootstrap me-2"></i>Bootstrap
+                    </span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 mx-auto text-center">
+                    <h4 class="mb-4">Backend</h4>
+                    <span class="tech-badge">
+                        <i class="fab fa-node-js me-2"></i>Node.js
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fas fa-server me-2"></i>Express
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fas fa-database me-2"></i>MongoDB
+                    </span>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h4 class="mb-4">APIs Integradas</h4>
+                    <span class="tech-badge">
+                        <i class="fab fa-google me-2"></i>Google Identity Services (OAuth 2.0)
+                    </span>
+                    <span class="tech-badge">
+                        <i class="fab fa-google me-2"></i>Google Calendar API
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seguridad y Usabilidad -->
+    <section class="py-5 my-5">
+        <div class="container">
+            <h2 class="section-title">Seguridad y Usabilidad</h2>
+            <div class="row g-4">
+                <div class="col-md-6 fade-in">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-check"></i>
+                        </div>
+                        <h4>Protección de Datos</h4>
+                        <p>Cumplimiento de protección de datos personales bajo estándares <strong>OWASP</strong>, garantizando la seguridad de la información de todos los usuarios.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 fade-in">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-universal-access"></i>
+                        </div>
+                        <h4>Accesibilidad Universal</h4>
+                        <p>Interfaz accesible (<strong>WCAG 2.1 Nivel AA</strong>) compatible con dispositivos móviles y escritorio, asegurando una experiencia inclusiva.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flujo de Usuario -->
+    <section id="flow" class="py-5 my-5 bg-white">
+        <div class="container">
+            <h2 class="section-title">Flujo de Usuario</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">1</div>
+                    <div class="timeline-content">
+                        <h4>El aprendiz busca un mentor</h4>
+                        <p>Según sus necesidades académicas, área de conocimiento y disponibilidad horaria.</p>
+                        <i class="fas fa-search" style="font-size: 2rem; color: var(--primary-color); opacity: 0.3;"></i>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">2</div>
+                    <div class="timeline-content">
+                        <h4>Visualiza perfiles y selecciona</h4>
+                        <p>Explora tarjetas interactivas con información detallada del mentor y agenda una sesión.</p>
+                        <i class="fas fa-hand-pointer" style="font-size: 2rem; color: var(--primary-color); opacity: 0.3;"></i>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">3</div>
+                    <div class="timeline-content">
+                        <h4>El mentor recibe y confirma</h4>
+                        <p>La solicitud se sincroniza automáticamente en ambos calendarios de Google.</p>
+                        <i class="fas fa-calendar-check" style="font-size: 2rem; color: var(--primary-color); opacity: 0.3;"></i>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-number">4</div>
+                    <div class="timeline-content">
+                        <h4>Calificación y retroalimentación</h4>
+                        <p>Tras la sesión, el aprendiz califica la experiencia, retroalimentando el sistema.</p>
+                        <i class="fas fa-star-half-alt" style="font-size: 2rem; color: var(--primary-color); opacity: 0.3;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo de Búsqueda de Mentores (NUEVO) -->
+    <section id="mentors" class="py-5 my-5">
+        <div class="container">
+            <h2 class="section-title">Demo: Búsqueda de Mentores</h2>
+            
+            <!-- Filtros de búsqueda -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Buscar por especialidad...">
+                </div>
+                <div class="col-md-4">
+                    <select id="filterArea" class="form-select">
+                        <option value="">Todas las áreas</option>
+                        <option value="matematicas">Matemáticas</option>
+                        <option value="programacion">Programación</option>
+                        <option value="ciencias">Ciencias</option>
+                        <option value="idiomas">Idiomas</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary-custom w-100" onclick="filterMentors()">
+                        <i class="fas fa-filter me-2"></i>Filtrar
+                    </button>
+                </div>
+            </div>
+
+            <!-- Grid de mentores -->
+            <div id="mentorsGrid" class="row g-4">
+                <!-- Los mentores se cargarán dinámicamente con JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Impacto Esperado -->
+    <section id="impact" class="py-5 my-5">
+        <div class="container">
+            <h2 class="section-title">Impacto Esperado</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-4 fade-in">
+                    <div class="stat-card">
+                        <div class="stat-number">40%</div>
+                        <h4>Reducción en Dificultades</h4>
+                        <p>Disminución reportada en dificultades académicas mediante encuestas integradas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <h4>Redes Profesionales</h4>
+                        <p>Fortalecimiento de conexiones entre estudiantes de diferentes ciclos académicos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-in">
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <h4>Acceso Disponible</h4>
+                        <p>Plataforma accesible en todo momento desde cualquier dispositivo conectado.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 my-5 bg-primary text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">¿Listo para transformar tu experiencia académica?</h2>
+            <p class="lead mb-4">Únete a Conexión Educativa y accede a mentoría de calidad</p>
+            <button class="btn btn-light btn-lg me-3 mb-2" onclick="simulateLogin()">
+                <i class="fab fa-google me-2"></i>
+                Iniciar con Google
+            </button>
+            <button class="btn btn-outline-light btn-lg mb-2" onclick="showDemo()">
+                Ver Demo
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h5>Conexión Educativa</h5>
+                    <p class="text-light">Plataforma de Mentoría Académica - MVP funcional preparado para escalar.</p>
+                    <p class="text-light"><small>Proyecto educativo con estándares OWASP y WCAG 2.1 Nivel AA</small></p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <p class="text-light">
+                        <i class="fas fa-envelope me-2"></i> contacto@conexioneducativa.edu<br>
+                        <i class="fas fa-graduation-cap me-2"></i> Transformando la educación
+                    </p>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+            <div class="text-center">
+                <p class="mb-0 text-light">&copy; 2024 Conexión Educativa. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 </html>
